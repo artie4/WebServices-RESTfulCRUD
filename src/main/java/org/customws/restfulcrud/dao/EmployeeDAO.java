@@ -30,10 +30,6 @@ public class EmployeeDAO {
         return empMap.get(empNo);
     }
 
-    public static Employee addEmployee(Employee emp) {
-        empMap.put(emp.getEmpNo(), emp);
-        return emp;
-    }
     public static List<Employee> addEmployee(List<Employee> employees) {
         for (Employee emp: employees
              ) {

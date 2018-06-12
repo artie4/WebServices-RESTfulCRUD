@@ -39,13 +39,6 @@ public class EmployeeService {
     // /contextPath/servletPath/employees
     @POST
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Employee addEmployee(Employee emp) {
-        return EmployeeDAO.addEmployee(emp);
-    }
-    // URI:
-    // /contextPath/servletPath/employees
-    @POST
-    @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
     public List<Employee> addEmployee(List<Employee> employees) {
         return EmployeeDAO.addEmployee(employees);
     }
