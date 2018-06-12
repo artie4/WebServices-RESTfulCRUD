@@ -6,6 +6,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.customws.restfulcrud.model.Computer;
 import org.customws.restfulcrud.model.Employee;
 
 public class EmployeeDAO {
@@ -20,10 +21,12 @@ public class EmployeeDAO {
         Employee emp1 = new Employee("E01", "Smith", "Clerk");
         Employee emp2 = new Employee("E02", "Allen", "Salesman");
         Employee emp3 = new Employee("E03", "Jones", "Manager");
+        Employee emp4 = new Employee("E04", "Jones", "Manager", new Computer("HP", "Windows10"));
 
         empMap.put(emp1.getEmpNo(), emp1);
         empMap.put(emp2.getEmpNo(), emp2);
         empMap.put(emp3.getEmpNo(), emp3);
+        empMap.put(emp4.getEmpNo(), emp4);
     }
 
     public static Employee getEmployee(String empNo) {

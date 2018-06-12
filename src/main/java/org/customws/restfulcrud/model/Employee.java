@@ -11,6 +11,7 @@ public class Employee {
     private String empNo;
     private String empName;
     private String position;
+    private Computer computer;
 
     // This default constructor is required if there are other constructors.
     public Employee() {
@@ -21,6 +22,12 @@ public class Employee {
         this.empNo = empNo;
         this.empName = empName;
         this.position = position;
+    }
+    public Employee(String empNo, String empName, String position, Computer comp) {
+        this.empNo = empNo;
+        this.empName = empName;
+        this.position = position;
+        this.computer = comp;
     }
 
     public String getEmpNo() {
@@ -47,4 +54,11 @@ public class Employee {
         this.position = position;
     }
 
+    public Computer getComputer() {
+        return computer;
+    }
+
+    public void setComputer(Computer computer) {
+        this.computer = computer;
+    }
 }
