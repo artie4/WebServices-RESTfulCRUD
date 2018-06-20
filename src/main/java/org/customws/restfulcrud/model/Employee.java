@@ -3,47 +3,61 @@ package org.customws.restfulcrud.model;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlRootElement;
+import java.util.Objects;
 
 @XmlRootElement(name = "employee")
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Employee {
 
-    private String empNo;
-    private String empName;
+    private String employeeID;
+    private String firstName;
+    private String lastName;
+    private Department department;
     private String position;
     private Computer computer;
 
     // This default constructor is required if there are other constructors.
-    public Employee() {
+    public Employee() {}
 
-    }
-
-    public Employee(String empNo, String empName, String position) {
-        this.empNo = empNo;
-        this.empName = empName;
+    public Employee(String employeeID, String firstName, String lastName, String position) {
+        this.employeeID = employeeID;
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.position = position;
     }
-    public Employee(String empNo, String empName, String position, Computer comp) {
-        this.empNo = empNo;
-        this.empName = empName;
+
+    public Employee(String employeeID, String firstName, String lastName, Department department,
+                    String position, Computer computer) {
+        this.employeeID = employeeID;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.department = department;
         this.position = position;
-        this.computer = comp;
+        this.computer = computer;
     }
 
-    public String getEmpNo() {
-        return empNo;
+    public String getLastName() {
+        return lastName;
     }
 
-    public void setEmpNo(String empNo) {
-        this.empNo = empNo;
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
     }
 
-    public String getEmpName() {
-        return empName;
+    public String getEmployeeID() {
+        return employeeID;
     }
 
-    public void setEmpName(String empName) {
-        this.empName = empName;
+    public void setEmployeeID(String employeeID) {
+        this.employeeID = employeeID;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 
     public String getPosition() {
@@ -60,5 +74,29 @@ public class Employee {
 
     public void setComputer(Computer computer) {
         this.computer = computer;
+    }
+
+    public Department getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(Department department) {
+        this.department = department;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Employee employee = (Employee) o;
+        return Objects.equals(employeeID, employee.employeeID) &&
+                Objects.equals(firstName, employee.firstName) &&
+                Objects.equals(lastName, employee.lastName) &&
+                Objects.equals(position, employee.position);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(employeeID, firstName, lastName, position);
     }
 }

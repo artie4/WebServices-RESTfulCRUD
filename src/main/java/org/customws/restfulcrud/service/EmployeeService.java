@@ -29,10 +29,10 @@ public class EmployeeService {
     // URI:
     // /contextPath/servletPath/employees/{empNo}
     @GET
-    @Path("/{empNo}")
+    @Path("/{employeeID}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public Employee getEmployee(@PathParam("empNo") String empNo) {
-        return EmployeeDAO.getEmployee(empNo);
+    public Employee getEmployee(@PathParam("employeeID") String employeeID) {
+        return EmployeeDAO.getEmployee(employeeID);
     }
 
     // URI:
@@ -52,10 +52,10 @@ public class EmployeeService {
     }
 
     @DELETE
-    @Path("/{empNo}")
+    @Path("/{employeeID}")
     @Produces({ MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML })
-    public void deleteEmployee(@PathParam("empNo") String empNo) {
-        EmployeeDAO.deleteEmployee(empNo);
+    public void deleteEmployee(@PathParam("employeeID") String employeeID) {
+        EmployeeDAO.deleteEmployee(employeeID);
     }
 
 }
