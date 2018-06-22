@@ -53,11 +53,14 @@ public class EmployeeDAO {
         Employee emp3 = new Employee("E_0003", "Carlos", "Clay", "Auditor");
         Employee emp4 = new Employee("E_0004", "Dino", "Hooker", new Department("ACBP", "Accounting / Payroll"),
         "Account Service Manager", new Computer("HP", "Windows10"));
+        Employee emp5 = new Employee("E_0005", "Rajiv", "Hagne", new Department("APCR", "Activies Planning Center"),
+        "APC Member", new Computer("Asus", "Windows7"));
 
         empMap.put(emp1.getEmployeeID(), emp1);
         empMap.put(emp2.getEmployeeID(), emp2);
         empMap.put(emp3.getEmployeeID(), emp3);
         empMap.put(emp4.getEmployeeID(), emp4);
+        empMap.put(emp5.getEmployeeID(), emp5);
     }
 
     public static Employee getEmployee(String empNo) {
