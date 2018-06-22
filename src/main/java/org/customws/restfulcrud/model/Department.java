@@ -10,12 +10,8 @@ public class Department {
 
     private String departmentCode;
     private String departmentName;
-
-    enum department {
-        ACAS,
-        ACBP,
-        ACSC
-    }
+    
+    public Department() {}
 
     public Department(String departmentCode, String departmentName) {
         this.departmentCode = departmentCode;
