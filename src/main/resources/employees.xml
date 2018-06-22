@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<employees>
+        <employee>
+			<employeeID>E_0001</employeeID>
+            <firstName>Tijuana</firstName>
+            <lastName>Mccann</lastName>
+            <department>
+                <departmentCode></departmentCode>
+                <departmentName></departmentName>
+            </department>
+            <position>HR Manager</position>
+            <computer>
+                <model></model>
+                <os></os>
+            </computer>
+        </employee>
+		 <employee>
+			<employeeID>E_0004</employeeID>
+            <firstName>Dino</firstName>
+            <lastName>Hooker</lastName>
+             <department>
+                 <departmentCode></departmentCode>
+                 <departmentName></departmentName>
+             </department>
+            <position>Account Service Manager</position>
+            <computer>
+                <model></model>
+                <os></os>
+            </computer>
+        </employee>
+</employees>

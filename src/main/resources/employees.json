@@ -1,0 +1,89 @@
+{
+  "employees":
+  [
+    {
+      "employee": {
+        "employeeID": "E_0001",
+        "firstName": "Tijuana",
+        "lastName": "Mccann",
+        "department": {
+          "departmentCode": "",
+          "departmentName": ""
+        },
+        "position": "HR Manager",
+        "computer": {
+          "model": "",
+          "os": ""
+        }
+      }
+    },
+
+    {
+      "employeeID": "E_0002",
+      "firstName": "Marg",
+      "lastName": "Rousseau",
+      "department":
+      {
+        "departmentCode": "",
+        "departmentName": ""
+      },
+      "position": "Salesman",
+      "computer":
+      {
+        "model": "",
+        "os": ""
+      }
+    },
+
+    {
+      "employeeID": "E_0003",
+      "firstName": "Carlos",
+      "lastName": "Clay",
+      "department":
+      {
+        "departmentCode": "",
+        "departmentName": ""
+      },
+      "position": "Auditor",
+      "computer":
+      {
+        "model": "",
+        "os": ""
+      }
+    },
+
+    {
+      "employeeID": "E_0004",
+      "firstName": "Dino",
+      "lastName": "Hooker",
+      "department":
+      {
+        "departmentCode": "ACBP",
+        "departmentName": "Accounting / Payroll"
+      },
+      "position": "Account Service Manager",
+      "computer":
+      {
+        "model": "",
+        "os": ""
+      }
+    },
+
+    {
+      "employeeID": "E_0005",
+      "firstName": "Nonus",
+      "lastName": "Iulius",
+      "department":
+      {
+        "departmentCode": "",
+        "departmentName": ""
+      },
+      "position": "Senate Member",
+      "computer":
+      {
+        "model": "",
+        "os": ""
+      }
+    }
+  ]
+}
