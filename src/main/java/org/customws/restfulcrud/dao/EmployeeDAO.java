@@ -50,11 +50,14 @@ public class EmployeeDAO {
 
         Employee emp1 = new Employee("E_0001", "Tijuana",	"Mccann", "HR Manager");
         Employee emp2 = new Employee("E_0002", "Marg", "Rousseau", "Salesman");
-        Employee emp3 = new Employee("E_0003", "Carlos", "Clay", "Auditor");
-        Employee emp4 = new Employee("E_0004", "Dino", "Hooker", new Department("ACBP", "Accounting / Payroll"),
-        "Account Service Manager", new Computer("HP", "Windows10"));
-        Employee emp5 = new Employee("E_0005", "Rajiv", "Hagne", new Department("APCR", "Activies Planning Center"),
-        "APC Member", new Computer("Asus", "Windows7"));
+        Employee emp3 = new Employee("E_0003", "Carlos", "Clay",
+                new Department("BUDG", "Office of Budget and Planning"), "Auditor", new Computer("MacBook", "OS X"));
+        Employee emp4 = new Employee("E_0004", "Dino", "Hooker",
+                new Department("ACBP", "Accounting / Payroll"),
+        "Account Service Manager", new Computer("HP", "Windows 10 Pro"));
+        Employee emp5 = new Employee("E_0005", "Rajiv", "Hagne",
+                new Department("APCR", "Activies Planning Center"),
+        "APC Member", new Computer("Asus", "Windows 10 Enp"));
 
         empMap.put(emp1.getEmployeeID(), emp1);
         empMap.put(emp2.getEmployeeID(), emp2);

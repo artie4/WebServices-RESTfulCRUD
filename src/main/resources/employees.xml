@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <employees>
         <employee>
-			<employeeID>E_0001</employeeID>
-            <firstName>Tijuana</firstName>
-            <lastName>Mccann</lastName>
+			<employeeID>E_0006</employeeID>
+            <firstName>Hector </firstName>
+            <lastName>J. Davis</lastName>
             <department>
-                <departmentCode></departmentCode>
-                <departmentName></departmentName>
+                <departmentCode>IPLA</departmentCode>
+                <departmentName>ETS Project Management</departmentName>
             </department>
-            <position>HR Manager</position>
+            <position>Traffic clerk</position>
             <computer>
-                <model></model>
-                <os></os>
+                <model>MacBook</model>
+                <os>OS X</os>
             </computer>
         </employee>
 		 <employee>
-			<employeeID>E_0004</employeeID>
-            <firstName>Dino</firstName>
-            <lastName>Hooker</lastName>
+			<employeeID>E_0007</employeeID>
+            <firstName>Marilyn</firstName>
+            <lastName>Wright</lastName>
              <department>
-                 <departmentCode></departmentCode>
-                 <departmentName></departmentName>
+                 <departmentCode>LAWS</departmentCode>
+                 <departmentName>Law and Society Program</departmentName>
              </department>
-            <position>Account Service Manager</position>
+            <position>Auditing clerk</position>
             <computer>
-                <model></model>
-                <os></os>
+                <model>Lenovo</model>
+                <os>Windows 10 Home</os>
             </computer>
         </employee>
 </employees>

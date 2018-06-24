@@ -1,88 +1,32 @@
 {
-  "employees":
-  [
-    {
-      "employee": {
-        "employeeID": "E_0001",
-        "firstName": "Tijuana",
-        "lastName": "Mccann",
-        "department": {
-          "departmentCode": "",
-          "departmentName": ""
-        },
-        "position": "HR Manager",
-        "computer": {
-          "model": "",
-          "os": ""
-        }
-      }
-    },
+  "employee": [
 
     {
-      "employeeID": "E_0002",
-      "firstName": "Marg",
-      "lastName": "Rousseau",
-      "department":
-      {
-        "departmentCode": "",
-        "departmentName": ""
+      "employeeID": "E_0007",
+      "firstName": "Marilyn",
+      "lastName": "Wright",
+      "department": {
+        "departmentCode": "LAWS",
+        "departmentName": "Law and Society Program"
       },
-      "position": "Salesman",
-      "computer":
-      {
-        "model": "",
-        "os": ""
+      "position": "Auditing clerk",
+      "computer": {
+        "model": "Lenovo",
+        "os": "Windows 10 Home"
       }
     },
-
     {
-      "employeeID": "E_0003",
-      "firstName": "Carlos",
-      "lastName": "Clay",
-      "department":
-      {
-        "departmentCode": "",
-        "departmentName": ""
+      "employeeID": "E_0006",
+      "firstName": "Hector ",
+      "lastName": "J. Davis",
+      "department": {
+        "departmentCode": "IPLA",
+        "departmentName": "ETS Project Management"
       },
-      "position": "Auditor",
-      "computer":
-      {
-        "model": "",
-        "os": ""
-      }
-    },
-
-    {
-      "employeeID": "E_0004",
-      "firstName": "Dino",
-      "lastName": "Hooker",
-      "department":
-      {
-        "departmentCode": "ACBP",
-        "departmentName": "Accounting / Payroll"
-      },
-      "position": "Account Service Manager",
-      "computer":
-      {
-        "model": "",
-        "os": ""
-      }
-    },
-
-    {
-      "employeeID": "E_0005",
-      "firstName": "Nonus",
-      "lastName": "Iulius",
-      "department":
-      {
-        "departmentCode": "",
-        "departmentName": ""
-      },
-      "position": "Senate Member",
-      "computer":
-      {
-        "model": "",
-        "os": ""
+      "position": "Traffic clerk",
+      "computer": {
+        "model": "MacBook",
+        "os": "OS X"
       }
     }
   ]
