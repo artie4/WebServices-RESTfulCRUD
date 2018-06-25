@@ -1,6 +1,5 @@
 {
   "employee": [
-
     {
       "employeeID": "E_0007",
       "firstName": "Marilyn",
@@ -17,7 +16,7 @@
     },
     {
       "employeeID": "E_0006",
-      "firstName": "Hector ",
+      "firstName": "Hector",
       "lastName": "J. Davis",
       "department": {
         "departmentCode": "IPLA",
@@ -27,6 +26,20 @@
       "computer": {
         "model": "MacBook",
         "os": "OS X"
+      }
+    },
+    {
+      "employeeID": "E_0008",
+      "firstName": "Masato",
+      "lastName": "Ishikuno",
+      "department": {
+        "departmentCode": "RESD",
+        "departmentName": "Office of Research"
+      },
+      "position": "Digital image processor",
+      "computer": {
+        "model": "Sony",
+        "os": "Windows 10 Ult"
       }
     }
   ]

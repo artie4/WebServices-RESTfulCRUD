@@ -2,7 +2,7 @@
 <employees>
         <employee>
 			<employeeID>E_0006</employeeID>
-            <firstName>Hector </firstName>
+            <firstName>Hector</firstName>
             <lastName>J. Davis</lastName>
             <department>
                 <departmentCode>IPLA</departmentCode>
@@ -28,4 +28,18 @@
                 <os>Windows 10 Home</os>
             </computer>
         </employee>
+    <employee>
+        <employeeID>E_0008</employeeID>
+        <firstName>Masato</firstName>
+        <lastName>Ishikuno</lastName>
+        <department>
+            <departmentCode>RESD</departmentCode>
+            <departmentName>Office of Research</departmentName>
+        </department>
+        <position>Digital image processor</position>
+        <computer>
+            <model>Sony</model>
+            <os>Windows 10 Ult</os>
+        </computer>
+    </employee>
 </employees>
